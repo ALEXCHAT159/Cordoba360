@@ -8,7 +8,7 @@ Esta primera entrega cubre la **semántica estructural, la maquetación responsi
 
 | Archivo | Contenido (según los mockups) |
 | --- | --- |
-| `index.html` | Inicio: hero, destinos populares y experiencias |
+| `index.html` | Inicio: portada con imagen principal, destinos populares y experiencias |
 | `destinos.html` | Listado de destinos por categoría (playas, pueblos, naturaleza) |
 | `experiencias.html` | "Vive experiencias inolvidables": 6 categorías |
 | `informacion.html` | Conoce Córdoba: historia, cifras, consejos de viaje |

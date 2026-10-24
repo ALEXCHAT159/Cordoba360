@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Córdoba 360 | Turismo en Córdoba, Colombia</title>
+  <meta name="description" content="Descubre los destinos, playas, naturaleza, cultura y gastronomía del departamento de Córdoba, Colombia.">
+  <meta name="author" content="Alex Arrieta">
+  <meta name="theme-color" content="#1b6b1f">
+  <meta property="og:title" content="Córdoba 360 | Turismo en Córdoba, Colombia">
+  <meta property="og:description" content="Descubre los destinos, playas, naturaleza, cultura y gastronomía del departamento de Córdoba, Colombia.">
+  <meta property="og:image" content="img/hero-rio-sinu.jpg">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <!-- Tipografía e iconografía externas vía CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="pagina">
+  <a class="saltar-contenido" href="#contenido">Saltar al contenido</a>
+  <header class="encabezado">
+    <div class="contenedor barra">
+      <a class="logo" href="index.html" aria-label="Córdoba 360°, ir al inicio">
+        <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="currentColor" d="M22 6.1A18 18 0 1 0 41.9 26h-8.2A10 10 0 1 1 22 14.3z"/><path fill="currentColor" d="M26.5 3.5c8.6.9 15.4 7.6 16.6 16.2l-8.3.1c-.8-3.9-3.6-7-7.3-8.1z"/><circle cx="24" cy="24" r="4.2" fill="currentColor"/></svg>
+        <span><b>Córdoba</b>360°</span>
+      </a>
+
+      <input type="checkbox" id="menu" class="menu-toggle" aria-label="Abrir menú">
+      <label for="menu" class="velo" aria-hidden="true"></label>
+      <nav class="nav" aria-label="Navegación principal">
+        <label for="menu" class="menu-cerrar" aria-label="Cerrar menú"><i class="fa-solid fa-xmark"></i></label>
+        <ul class="nav__lista">
+          <li class="nav__item"><a class="nav__enlace" href="index.html" aria-current="page">Inicio <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+          <li class="nav__item nav__item--mega">
+            <input type="checkbox" id="sub-destinos" class="sub-toggle">
+            <div class="nav__fila">
+              <a class="nav__enlace" href="destinos.html">Destinos</a>
+              <label for="sub-destinos" class="sub-abrir" aria-label="Mostrar destinos"><i class="fa-solid fa-chevron-down"></i></label>
+            </div>
+            <div class="mega" id="mega-destinos">
+              <div>
+                <h3>Playas</h3>
+                <ul>
+                  <li><a href="san-antero.html">San Antero</a></li>
+                  <li><a href="destinos.html#playas">Moñitos</a></li>
+                  <li><a href="destinos.html#playas">Puerto Escondido</a></li>
+                  <li><a href="destinos.html#playas">Los Córdobas</a></li>
+                  <li><a href="destinos.html#playas">Canalete</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Pueblos y Municipios</h3>
+                <ul>
+                  <li><a href="destinos.html#pueblos">Lorica</a></li>
+                  <li><a href="destinos.html#pueblos">Montería</a></li>
+                  <li><a href="destinos.html#pueblos">Ayapel</a></li>
+                  <li><a href="destinos.html#pueblos">Tuchín</a></li>
+                  <li><a href="destinos.html#pueblos">Sahagún</a></li>
+                  <li><a href="destinos.html#pueblos">Cereté</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Naturaleza</h3>
+                <ul>
+                  <li><a href="destinos.html#naturaleza">Parque Nacional Natural Paramillo</a></li>
+                  <li><a href="destinos.html#naturaleza">Ciénaga de Betancí</a></li>
+                  <li><a href="destinos.html#naturaleza">Río Sinú</a></li>
+                  <li><a href="destinos.html#naturaleza">Volcán de Lodo</a></li>
+                </ul>
+              </div>
+              <div>
+                <h3>Información</h3>
+                <ul>
+                  <li><a href="informacion.html">Conoce Córdoba</a></li>
+                  <li><a href="informacion.html#historia">Nuestra historia</a></li>
+                  <li><a href="experiencias.html#cultura">Cultura y tradición</a></li>
+                  <li><a href="experiencias.html#gastronomia">Gastronomía típica</a></li>
+                  <li><a href="informacion.html#cifras">Datos del departamento</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="nav__item"><a class="nav__enlace" href="experiencias.html">Experiencias <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+          <li class="nav__item"><a class="nav__enlace" href="informacion.html">Informacion <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+          <li class="nav__item"><a class="nav__enlace" href="contacto.html">Contacto <i class="fa-solid fa-chevron-right" aria-hidden="true"></i></a></li>
+        </ul>
+        <div class="nav__cuenta">
+          <a class="btn btn--pildora" href="registro.html#login">Iniciar sesión</a>
+          <a class="btn btn--pildora" href="registro.html">Registrarte</a>
+        </div>
+      </nav>
+
+      <div class="herramientas">
+        <form class="buscador" role="search" action="destinos.html" method="get">
+          <label for="q" class="sr-only">Buscar destinos</label>
+          <input type="search" id="q" name="q" placeholder="Buscar destinos..." minlength="2" maxlength="40">
+          <button type="submit" aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="cuenta">
+          <a class="btn btn--pildora" href="registro.html#login">Iniciar sesion</a>
+          <a class="btn btn--pildora" href="registro.html">Registrarte</a>
+        </div>
+        <label for="menu" class="menu-abrir" aria-label="Abrir menú"><i class="fa-solid fa-bars"></i></label>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="titulo-hero">
+      <picture><source srcset="img/hero-rio-sinu.webp" type="image/webp"><img src="img/hero-rio-sinu.jpg" alt="Atardecer sobre el río Sinú con una lancha de pasajeros" fetchpriority="high" width="1600" height="577"></picture>
+      <div class="contenedor hero__contenido">
+        <h1 id="titulo-hero">Córdoba,<br>tierra de ensueño, te espera</h1>
+        <p>naturaleza, playas, cultura, historia...<br>¡Tu próximo gran destino está aquí!</p>
+        <a class="btn" href="destinos.html">Explorar Destinos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <section class="seccion contenedor" aria-labelledby="titulo-destinos">
+      <h2 class="seccion__titulo seccion__titulo--verde" id="titulo-destinos">DESTINOS POPULARES</h2>
+      <div class="carrusel">
+        <ul class="destinos">
+          <li class="tarjeta-destino">
+            <a href="destinos.html#pueblos">
+              <picture><source srcset="img/lorica-mercado.webp" type="image/webp"><img src="img/lorica-mercado.jpg" alt="Mercado público de Santa Cruz de Lorica" loading="lazy" decoding="async"></picture>
+              <h3>Lorica</h3>
+            </a>
+          </li>
+          <li class="tarjeta-destino">
+            <a href="san-antero.html">
+              <picture><source srcset="img/san-antero.webp" type="image/webp"><img src="img/san-antero.jpg" alt="Playa de San Antero con lancha y palmeras" loading="lazy" decoding="async"></picture>
+              <h3>San Antero</h3>
+            </a>
+          </li>
+          <li class="tarjeta-destino">
+            <a href="destinos.html#pueblos">
+              <picture><source srcset="img/monteria.webp" type="image/webp"><img src="img/monteria.jpg" alt="Esculturas iluminadas en la Ronda del Sinú, Montería" loading="lazy" decoding="async"></picture>
+              <h3>Monteria</h3>
+            </a>
+          </li>
+          <li class="tarjeta-destino">
+            <a href="destinos.html#pueblos">
+              <picture><source srcset="img/ayapel-catedral.webp" type="image/webp"><img src="img/ayapel-catedral.jpg" alt="Iglesia de Ayapel al atardecer" loading="lazy" decoding="async"></picture>
+              <h3>Ayapel</h3>
+            </a>
+          </li>
+          <li class="tarjeta-destino">
+            <a href="destinos.html#pueblos">
+              <picture><source srcset="img/tuchin.webp" type="image/webp"><img src="img/tuchin.jpg" alt="Letrero colorido de Tuchín con motivos del sombrero vueltiao" loading="lazy" decoding="async"></picture>
+              <h3>Tuchin</h3>
+            </a>
+          </li>
+        </ul>
+        <a class="ver-mas" href="destinos.html"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i><span>Ver<br>más</span><b class="sr-only">Ver más destinos</b></a>
+      </div>
+    </section>
+
+    <section class="seccion contenedor" aria-labelledby="titulo-exp">
+      <h2 class="seccion__titulo" id="titulo-exp"><span class="solo-escritorio">Explora experiencias</span><span class="solo-movil">¿Qué quieres descubrir de Córdoba?</span></h2>
+      <div class="experiencias-inicio">
+          <article class="tarjeta-exp">
+            <h3>Naturaleza</h3>
+            <picture><source srcset="img/naturaleza-sabana.webp" type="image/webp"><img src="img/naturaleza-sabana.jpg" alt="Sabanas y humedales verdes de Córdoba" loading="lazy" decoding="async"></picture>
+            <a class="tarjeta-exp__mas" href="experiencias.html#naturaleza">Ver más<span class="sr-only"> sobre Naturaleza</span></a>
+          </article>
+          <article class="tarjeta-exp">
+            <h3>Cultura</h3>
+            <picture><source srcset="img/cultura-festival.webp" type="image/webp"><img src="img/cultura-festival.jpg" alt="Músicos y bailarines en el Festival del Porro" loading="lazy" decoding="async"></picture>
+            <a class="tarjeta-exp__mas" href="experiencias.html#cultura">Ver más<span class="sr-only"> sobre Cultura</span></a>
+          </article>
+          <article class="tarjeta-exp">
+            <h3>Gastronomia</h3>
+            <picture><source srcset="img/gastronomia-pescado.webp" type="image/webp"><img src="img/gastronomia-pescado.jpg" alt="Pescado frito con arroz de coco y patacón" loading="lazy" decoding="async"></picture>
+            <a class="tarjeta-exp__mas" href="experiencias.html#gastronomia">Ver más<span class="sr-only"> sobre Gastronomia</span></a>
+          </article>
+          <article class="tarjeta-exp">
+            <h3>Eventos</h3>
+            <picture><source srcset="img/eventos-san-juan.webp" type="image/webp"><img src="img/eventos-san-juan.jpg" alt="Fiesta de San Juan con fogata en la playa" loading="lazy" decoding="async"></picture>
+            <a class="tarjeta-exp__mas" href="experiencias.html#eventos">Ver más<span class="sr-only"> sobre Eventos</span></a>
+          </article>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="flotantes" aria-label="Accesos rápidos">
+    <a class="flotante flotante--arriba" href="#top" aria-label="Volver arriba"><i class="fa-solid fa-arrow-up"></i></a>
+    <a class="flotante flotante--whatsapp" href="https://wa.me/57345609876" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+  </aside>
+
+  <footer class="pie">
+    <div class="contenedor pie__rejilla">
+      <section class="pie__marca" aria-label="Córdoba 360">
+        <a class="logo" href="index.html"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path fill="currentColor" d="M22 6.1A18 18 0 1 0 41.9 26h-8.2A10 10 0 1 1 22 14.3z"/><path fill="currentColor" d="M26.5 3.5c8.6.9 15.4 7.6 16.6 16.2l-8.3.1c-.8-3.9-3.6-7-7.3-8.1z"/><circle cx="24" cy="24" r="4.2" fill="currentColor"/></svg><span><b>Córdoba</b>360°</span></a>
+        <p>Turismo, cultura y naturaleza del Caribe cordobés.</p>
+        <ul class="redes">
+          <li><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+          <li><a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+      </section>
+      <nav class="pie__columna" aria-label="Enlaces rápidos">
+        <h2>Enlaces rápidos</h2>
+        <ul class="pie__lista">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="experiencias.html">Experiencias</a></li>
+          <li><a href="informacion.html">Conoce Córdoba</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <nav class="pie__columna" aria-label="Información">
+        <h2>Informacion</h2>
+        <ul class="pie__lista">
+          <li><a href="informacion.html">Quiénes somos</a></li>
+          <li><a href="#">Términos y condiciones</a></li>
+          <li><a href="#">Políticas de privacidad</a></li>
+          <li><a href="contacto.html">Preguntas frecuentes</a></li>
+        </ul>
+      </nav>
+      <section class="pie__columna" aria-label="Contáctanos">
+        <h2>Contáctanos</h2>
+        <address>
+          <ul class="pie__contacto">
+            <li><i class="fa-solid fa-phone" aria-hidden="true"></i><a href="tel:+577654321987">+57 765 432 1987</a></li>
+            <li><i class="fa-regular fa-envelope" aria-hidden="true"></i><a href="mailto:guiaturistica@gmail.com">guiaturistica@gmail.com</a></li>
+            <li><i class="fa-solid fa-location-dot" aria-hidden="true"></i>Córdoba, Colombia</li>
+          </ul>
+        </address>
+      </section>
+    </div>
+    <div class="pie__legal">
+      <div class="contenedor">
+        <p>Copyright © 2026 <strong>Córdoba 360</strong>. Todos los derechos reservados.</p>
+        <nav aria-label="Legal">
+          <a href="#">Términos y condiciones</a> | <a href="#">Política de privacidad</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

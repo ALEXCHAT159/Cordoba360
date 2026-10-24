@@ -346,6 +346,12 @@ address { font-style: normal; }
 }
 .consejos img { margin-top: 16px; border-radius: var(--radio); aspect-ratio: 4 / 3; object-fit: cover; width: 100%; }
 
+/* Fuentes consultadas */
+.fuentes { padding-block: 10px 40px; border-top: 1px solid #e3e3e3; }
+.fuentes h2 { font-size: 1rem; color: var(--verde-texto); margin: 20px 0 10px; }
+.fuentes li { font-size: .85rem; color: var(--gris-texto); margin-bottom: 6px; padding-left: 1.6em; text-indent: -1.6em; }
+.fuentes a { color: var(--verde-texto); text-decoration: underline; word-break: break-word; }
+
 /* ---------- 13. Página Experiencias ---------- */
 .intro-experiencias { text-align: center; padding-block: 40px 28px; }
 .intro-experiencias h1 {

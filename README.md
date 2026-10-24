@@ -62,6 +62,20 @@ Se recomienda hacer commits descriptivos por avance, por ejemplo: "Maquetación 
 
 Para publicarlo con GitHub Pages: *Settings → Pages → Branch: main / root*.
 
+## Referencias
+
+Colombia Travel. (s. f.). *Descubre Colombia a través de sus regiones*. Recuperado el 25 de agosto de 2026, de https://colombia.travel/es/donde-ir
+
+Escuela de Programación. (s. f.). *Diferencia entre HTML, CSS y JavaScript: guía visual para novatos*. Recuperado el 25 de agosto de 2026, de https://escueladeprogramacion.net/blog/diferencia-entre-html-css-y-javascript-guia-visual-para-novatos
+
+GitHub. (s. f.). *GitHub Education*. Recuperado el 25 de agosto de 2026, de https://github.com/education?locale=es-419
+
+Gobernación de Córdoba. (2021). *Turismo*. Recuperado el 25 de agosto de 2026, de https://www.cordoba.gov.co/publicaciones/18/turismo/
+
+Ministerio de Comercio, Industria y Turismo. (s. f.). *Portal de Información Turística de Colombia*. Recuperado el 25 de agosto de 2026, de https://portucolombia.mincit.gov.co/
+
+Miro. (2023, 20 de marzo). *Wireframe: Qué es, cómo hacerlo y ejemplos*. Recuperado el 25 de agosto de 2026, de https://miro.com/es/wireframe/que-es-wireframe/
+
 ## Créditos de imágenes
 
 Fotografías tomadas del material visual del proyecto (mockups del documento Córdoba 360) y de la carpeta de imágenes de referencia del autor. Uso académico.

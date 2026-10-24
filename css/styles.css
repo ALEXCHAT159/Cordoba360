@@ -378,11 +378,17 @@ address { font-style: normal; }
 }
 .tile__texto {
   position: absolute; z-index: 1; left: 14px; bottom: 50%; transform: translateY(50%);
-  display: flex; align-items: center; gap: 18px; width: calc(100% - 28px);
+  display: flex; align-items: center; gap: 10px; width: calc(100% - 28px);
   justify-content: space-between;
   font-size: clamp(1rem, 2.4vw, 1.9rem); font-weight: 700; text-shadow: 0 2px 8px rgba(0, 0, 0, .55);
 }
-.tile__texto i { font-size: 1.5em; font-weight: 300; }
+.tile__emoji {
+  font-size: 1.3em; line-height: 1; text-shadow: none;
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, .45));
+  transition: transform .3s;
+}
+.tile:hover .tile__emoji { transform: scale(1.2) rotate(-6deg); }
 
 /* ---------- 14. Página detalle de destino ---------- */
 .migas { padding-block: 16px 4px; font-size: clamp(.75rem, 1.6vw, 1.2rem); }
@@ -530,7 +536,7 @@ fieldset.campo { border: 0; padding: 0; margin: 0; }
   .cifras { grid-template-columns: repeat(4, 1fr); }
   .rejilla-experiencias { grid-template-columns: repeat(2, 1fr); }
   .tile { aspect-ratio: 1 / 1; }
-  .tile__texto { left: 22px; bottom: 16%; transform: none; justify-content: flex-start; }
+  .tile__texto { left: 22px; bottom: 16%; transform: none; justify-content: flex-start; width: calc(100% - 44px); }
   .rejilla-destinos { grid-template-columns: repeat(2, 1fr); }
   .formulario .doble { grid-template-columns: 1fr 1fr; }
   .pie__rejilla { grid-template-columns: repeat(2, 1fr); }
@@ -617,7 +623,8 @@ fieldset.campo { border: 0; padding: 0; margin: 0; }
   .historia__rejilla { grid-template-columns: 1fr 1.1fr; gap: 60px; }
   .historia__texto { padding-left: 60px; }
 
-  .rejilla-experiencias { grid-template-columns: repeat(3, 1fr); gap: 120px 110px; padding-inline: 50px; }
+  .rejilla-experiencias { grid-template-columns: repeat(3, 1fr); gap: clamp(50px, 8vw, 120px) clamp(36px, 7.5vw, 110px); padding-inline: clamp(0px, 3.5vw, 50px); }
+  .tile__texto { font-size: clamp(1.1rem, 1.6vw, 1.6rem); }
   .banda-experiencias { padding-block: 66px; border-top: 1px solid #888; border-bottom: 1px solid #888; }
 
   .destino-cabecera { grid-template-columns: 1fr 1.15fr; gap: 60px; align-items: center; padding-top: 30px; }

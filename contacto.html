@@ -95,9 +95,9 @@
 
       <div class="herramientas">
         <form class="buscador" role="search" action="destinos.html" method="get">
-          <label for="q" class="sr-only">Buscar destinos</label>
-          <input type="search" id="q" name="q" placeholder="Buscar destinos..." minlength="2" maxlength="40">
-          <button type="submit" aria-label="Buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+          <label for="q" class="buscador__abrir" title="Buscar"><span class="sr-only">Buscar destinos</span><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></label>
+          <input type="search" id="q" name="q" placeholder="Buscar destinos..." required minlength="2" maxlength="40">
+          <button type="submit" aria-label="Buscar"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg></button>
         </form>
         <div class="cuenta">
           <a class="btn btn--pildora" href="registro.html#login">Iniciar sesion</a>

@@ -121,10 +121,14 @@ button, input, select, textarea { font: inherit; }
   transition: width .3s, opacity .3s, padding .3s;
 }
 .buscador:focus-within input { width: 170px; padding: .35em .9em; opacity: 1; }
-.buscador button {
-  background: none; border: 0; color: var(--blanco); font-size: 1.35rem;
+/* La lupa (label) solo abre el campo; el botón de enviar aparece cuando el buscador está activo */
+.buscador__abrir, .buscador button {
+  display: grid; place-items: center; background: none; border: 0; color: var(--blanco);
   padding: 4px; cursor: pointer;
 }
+.buscador button { display: none; }
+.buscador:focus-within .buscador__abrir { display: none; }
+.buscador:focus-within button { display: grid; }
 
 .cuenta { display: none; gap: 14px; }
 
